@@ -1,0 +1,5 @@
+x=input()
+x=x.split(" ",4)
+x1=abs(int(x[2])-int(x[0]))
+y1=abs(int(x[3])-int(x[1]))
+print(min(int(x[0]),int(x[1]),x1,y1))
